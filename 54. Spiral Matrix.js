@@ -25,7 +25,7 @@ var spiralOrder = function (matrix) {
                 result.push(matrix[top][i]);
                 // 0 1, 0 2, 0 3
             }
-            top += 1; //top 0變為1 從 [i][1]開始往down走
+            top += 1; //top 0變為1 從 [1][i]開始往down走
             moveWay = 'down';
         }
         else if (moveWay === 'down') {
